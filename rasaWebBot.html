@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.rw-header, .rw-close-button, .rw-client, .rw-launcher{
+			background: #772e52 !important;
+		}
+	</style>
+</head>
+<body>
+
+<script>!(function () {
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "https://raw.githubusercontent.com/Dgalhotra/rasa-webchat-master/master/lib/index.js?token=APUCWM55SVYVL6JIDW4PH7TAKBDVE"),
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        {
+          customData: { language: "en" },
+          socketUrl: "http://157.230.6.227:5005/",
+          socketPath: "/socket.io/"
+          // add other props here
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+</script>
+</body>
+</html>
